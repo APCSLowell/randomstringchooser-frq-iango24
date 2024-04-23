@@ -1,8 +1,9 @@
 import java.util.*;
 public class RandomStringChooser
 {
-  private ArrayList <String> words = new ArrayList <String>();
+  private ArrayList <String> words;
   public RandomStringChooser(String[]wordArray){
+    words = new ArrayList <String>();
     for(int i=0;i<wordArray.length;i++){
       words.add(wordArray.get(i));
     }
