@@ -2,10 +2,10 @@ import java.util.*;
 public class RandomStringChooser
 {
   private ArrayList <String> words;
-  public RandomStringChooser(String[]wordArray){
+  public RandomStringChooser(String[] wordArray){
     words = new ArrayList <String>();
     for(String i:wordArray){
-      words.add(w);
+      words.add(i);
     }
   }
   public String getNext(){
